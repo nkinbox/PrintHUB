@@ -1,0 +1,76 @@
+h1 {
+font-family: 'paragraph';
+font-size: 180%;
+text-align: center;
+color: #777;
+}
+.g {
+display: inline-block;
+width: 50%;
+}
+._mode {
+padding: 10px;
+font-size: 19px;
+text-align: center;
+margin: 3px;
+}
+#_g {
+background: #f0f0f0;
+padding: 5px 0;
+border-bottom: 1px solid #aaa;
+border-top: 1px solid #aaa;
+}
+.mode_c {
+width: 144px;
+height: 48px;
+padding: 58px 10px;
+border: 1px solid #aaa;
+border-radius: 83px;
+background: #f6f6f6;
+margin-bottom: 15px;
+}
+.mode {
+height: 48px;
+background-image: url('http://static.orntel.com/i/h.png');
+background-repeat: no-repeat;
+background-size: 100%;
+}
+.tx {
+background: #87afff;
+padding:5px;
+border-radius: 4px;
+border: 1px solid #aaa;
+}
+.ty {
+font-size: 20px;
+padding: 20px;
+color: #777;
+text-align: center;
+margin-bottom: 35px;
+border: 1px dashed #888;
+background: #EDEDED;
+}
+.b1, .b2, .b0 {
+display: inline-block;
+vertical-align: middle;
+width: 48%;
+padding: 1%;
+text-align: center;
+border-bottom: 1px solid #aaa;
+}
+.b0 {
+background: #f5f5f5;
+}
+.b3 {
+border: 1px solid #aaa;
+border-bottom: 0;
+}
+@media screen and (max-width: 500px) {
+.mode_c {
+width: 87px;
+height: 27px;
+padding: 40px 10px;
+}
+.mode {height: 27px;}
+._mode {font-size: 12px}
+}

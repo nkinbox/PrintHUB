@@ -1,0 +1,111 @@
+.e_r {
+color: #f00;
+background: #fee;
+padding: 0.5em;
+margin: 1em;
+border: 1px solid #f00;
+text-align: center;
+}
+.g_c {
+display: inline-block;
+width: 33.33%;
+vertical-align: top
+}
+.g_co {padding: 0.5em;}
+.g {
+border: 1px solid #888;
+padding: 1em;
+}
+.g_h {
+font-size: 1.3em;
+background: #ddd;
+border: 1px solid #888;
+text-align: center;
+padding: 4px;
+}
+select, input {
+width: 80%;
+height:32px;
+padding:0 0 0 3em;
+border:0;
+border-bottom: 1px solid #aaa;
+margin: 1em auto;
+display: block;
+background-image: url('http://static.orntel.com/i/p_p.png');
+background-repeat: no-repeat;
+}
+.upd {
+background: url('http://static.orntel.com/i/p_p.png') no-repeat 0 0, url('http://static.orntel.com/i/p_p.png') no-repeat 100% -128px;
+}
+.file {
+background: url('http://static.orntel.com/i/p_p.png') no-repeat 0 0, url('http://static.orntel.com/i/p_p.png') no-repeat 100% -32px;
+}
+.add {
+width: 32px;
+height:32px;
+padding:0;
+border: 1px solid #777;
+margin: 1em auto;
+display: block;
+background: #cbcbcb url('http://static.orntel.com/i/p_p.png') no-repeat 0 -32px;
+cursor: pointer;
+}
+input[type=radio] {display:none}
+input[type=radio] ~ .p_i {display: none;}
+input[type=radio]:checked ~ .p_i {display: block;}
+input[type=radio] + label {
+display: block;
+padding-left: 3em;
+background: #f7f7f7 url('http://static.orntel.com/i/p_p.png') no-repeat 0 -161px;
+height: 32px;
+margin: 1em 0.3em 0 0.3em;
+border: 3px solid #f7f7f7;
+line-height: 32px;
+font-weight: bold;
+color:#555;
+}
+input[type=radio]:checked + label {
+background-image: url('http://static.orntel.com/i/p_p.png'), url('http://static.orntel.com/i/p_p.png');
+background-repeat: no-repeat;
+background-position: 0 -161px, 100% -128px;
+}
+.p_i {
+background: #f7f7f7;
+margin: 0 0.3em;
+padding: 0.5em;
+}
+.p_i span {
+color: #5f5f5f;
+display: block;
+}
+#on {
+color: #26da00;
+float: right;
+}
+#off {
+color: #da0000;
+float: right;
+}
+.ofl {
+color: #777;
+font-size: 80%;
+margin-top: 0.2em;
+border: 1px solid #888;
+padding:0.2em
+}
+#fin {
+float: right;
+padding: 0 2.5em 0 0.5em;
+border: 1px solid #888;
+background: #d3d3d3 url('http://static.orntel.com/i/p_p.png') no-repeat 100% -193px;
+cursor: pointer;
+height: 30px;
+line-height: 30px;
+}
+@media screen and (max-width: 900px) {
+.g_c {width: 100%}
+}
+@media screen and (max-width: 500px) {
+.g_co {padding: 0}
+.g {padding: 0.2em; margin-bottom:0.5em}
+}

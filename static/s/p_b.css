@@ -1,0 +1,40 @@
+section {
+text-align: center;
+}
+.g {
+display: inline-block;
+vertical-align: top;
+width:25%;
+}
+.g_ {
+padding:0.4em;
+}
+.col {
+border:1px solid #777;
+border-top: 0 !important;
+padding: 0.2em;
+}
+.he {
+font-weight: bold;
+color: #777;
+border-bottom: 2px solid #333;
+padding:0.4em;
+}
+.cre {
+padding: 1em;
+font-size: 150%;
+}
+section .bb {
+display: block;
+width: 8em;
+margin: 0.5em auto;
+border: 1px solid #aaa;
+padding:0.5em;
+background:#eee;
+}
+@media screen and (max-width: 800px) {
+.g {width: 50%}
+}
+@media screen and (max-width: 500px) {
+.g {width: 100%}
+}

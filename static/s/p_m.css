@@ -1,0 +1,171 @@
+.ps {
+text-align: right;
+padding: 5px;
+}
+#erc , #ercc {
+padding: 0.5em;
+text-align: center;
+}
+#erc {
+background: #fee;
+color: #f00;
+}
+#ercc {
+background: #efe;
+color: #00b000;
+}
+#m_con {
+border: 1px solid #aaa;
+background: #aeaeae;
+}
+#l_con {
+float: left;
+width: 150px;
+}
+._link {
+padding: 0.3em;
+position: relative;
+}
+.se_l {
+background: #ececec;
+}
+._link a {
+padding-left: 20px;
+display: block;
+height: 16px;
+font-size: 16px;
+}
+#_my {background: url('http://static.orntel.com/i/p_m.png') no-repeat 0 0;}
+#_hi {background: url('http://static.orntel.com/i/p_m.png') no-repeat 0 -16px;}
+#_cr {background: url('http://static.orntel.com/i/p_m.png') no-repeat 0 -48px;}
+#_ma {background: url('http://static.orntel.com/i/p_m.png') no-repeat 0 -32px;}
+#_ac {background: url('http://static.orntel.com/i/p_m.png') no-repeat 0 -64px;}
+#m_count {
+background: #f00;
+color:#fff;
+font-size: 10px;
+line-height: 7px;
+padding: 2px;
+border-radius: 3px;
+position: absolute;
+top: 1px;
+left: 1px;
+}
+#_content {
+margin-left: 150px;
+background: #f9f9f9;
+min-height: 180px;
+padding: 0.3em;
+}
+.pre_c {
+background: #eaeaea;
+text-align: center;
+width: 200px;
+border: 1px solid #aaa;
+margin: 0.2em;
+padding: 0.2em;
+display: inline-block;
+font-size: 14px;
+line-height: 18px;
+vertical-align: middle;
+}
+label {
+padding: 3px;
+background: #f7f7f7;
+display: inline-block;
+border: 1px solid #ddd;
+border-radius: 5px;
+}
+._spc {padding: 0.6em 0;}
+.tag_c {
+padding: 0.3em;
+border: 1px solid #cbcbcb;
+background: #f5f5f5;
+}
+.e_c {
+padding: 0.3em 0.1em;
+border: 1px solid #cbcbcb;
+background: #f5f5f5;
+}
+._ud {
+padding: 3px;
+cursor: pointer;
+background: #d8d8d8;
+margin: 2px;
+}
+.cr_s {
+display: inline-block;
+vertical-align: top;
+text-align: center;
+width: 50%;
+}
+.cr_sh {
+padding: 1em 0 1em 0;
+font-size: 150%;
+color: #aaa;
+}
+.cr_sv {
+padding: 0 0 1em 0;
+font-size: 200%;
+color: #00b000;
+}
+.ofl {
+border: 1px solid #aaa;
+font-size: 70%;
+color: #777;
+width: 200px;
+padding: 3px;
+margin: 0 auto;
+}
+.c_num {
+width: 15px;
+height: 15px;
+line-height: 15px;
+position: absolute;
+background: #333;
+color: #f7f7f7;
+padding: 3px;
+}
+.mail {
+display: inline-block;
+vertical-align: middle;
+}
+.mail_con {
+border: 1px solid #aaa;
+padding: 0.3em;
+margin: 0.3em;
+}
+.mp1 {
+padding: 0.5em;
+background: #eee;
+cursor: pointer;
+}
+.m_r {
+float: right;
+font-size: 25px;
+line-height: 25px;
+}
+.mail_c {
+background: #f4f4f4;
+padding: 0.5em;
+}
+.mail_n {
+background: #333;
+color: #f7f7f7;
+width: 25px;
+height: 25px;
+line-height: 25px;
+text-align: center;
+margin-right: 5px;
+}
+.mp2 {
+padding: 0.3em;
+}
+.mail_d {float: right}
+
+@media screen and (max-width: 700px) {
+#_content {margin-left:30px}
+.tab {display: none}
+#l_con {width:30px}
+#m_con {margin: -0.3em -0.8em}
+}

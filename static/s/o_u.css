@@ -1,0 +1,48 @@
+section {
+padding: 1em;
+}
+p {
+font-size: 120%;
+border-bottom: 1px solid #333;
+}
+input {
+display: block;
+width: 250px;
+margin: 2px 0 1em 0;
+}
+label {
+background: #ddd;
+padding: 0.5em;
+border: 1px solid #ddd;
+display: inline-block;
+border-radius: 5px;
+text-align: center;
+}
+.ad {
+width: 0;
+height: 0;
+border-left: 0.5em solid transparent;
+border-right: 0.5em solid transparent;
+border-top: 0.5em solid #ddd;
+margin-left: 13px;
+}
+#btn {
+display: inline-block;
+padding: 0.3em;
+margin: 0.3em;
+background: #dedede;
+border: 1px solid #333;
+cursor: pointer;
+}
+#erc , #ercc {
+padding: 0.5em;
+text-align: center;
+}
+#erc {
+background: #fee;
+color: #f00;
+}
+#ercc {
+background: #efe;
+color: #00b000;
+}

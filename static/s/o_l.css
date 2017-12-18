@@ -1,0 +1,60 @@
+h2 {
+color: #666;
+background:#fafafa;
+margin:0;
+padding:1em 0;
+text-align: center;
+border-bottom: 1px solid #eee;
+}
+section {
+padding: 1em;
+text-align: center;
+}
+input {
+width: 300px;
+height:32px;
+padding:0 0 0 3em;
+border:0;
+border-bottom: 1px solid #aaa;
+margin: 1em auto;
+display: block;
+background-image: url('http://static.orntel.com/i/l.png');
+background-repeat: no-repeat;
+}
+#s {
+width: 4em;
+height: 2em;
+padding-left:2em;
+line-height: 2em;
+background: url('http://static.orntel.com/i/l.png') no-repeat 0 -62px;
+color: #666;
+cursor: pointer;
+display: inline-block;
+}
+#c {
+margin: 0 auto;
+width: 348px;
+position:relative;
+}
+#res {
+display: block;
+background:#f2f2f2 url('http://static.orntel.com/i/l.png') no-repeat 0 -93px;
+text-decoration: none;
+width:2em;
+height:1.6em;
+border: 1px solid #c7c7c7;
+position: absolute;
+right:0;
+bottom: 0.2em;
+}
+#nsu {
+padding: 1em;
+font-size: 80%;
+}
+p { color: #ff6666}
+#green { color: #00c700}
+@media screen and (max-width: 400px) {
+h2 {font-size: 1.2em}
+input {width: 85%}
+#c {width: 90%}
+}

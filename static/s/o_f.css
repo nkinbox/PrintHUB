@@ -1,0 +1,13 @@
+section {
+padding: 1em;
+}
+p {
+font-size: 120%;
+}
+section a {
+display: block;
+text-decoration: none;
+padding: 0.3em;
+color: #777;
+margin: 8px;
+}

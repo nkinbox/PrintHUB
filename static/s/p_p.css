@@ -1,0 +1,115 @@
+.c_h {
+color: #333;
+font-size: 120%;
+text-align: center;
+padding: 0.3em;
+background: #bdbdbd;
+margin-bottom: 1em;
+}
+.e_r {
+color: #f00;
+background: #fee;
+padding: 0.5em;
+margin: 1em;
+border: 1px solid #f00;
+text-align: center;
+}
+.d_arr {
+width: 0;
+height: 0;
+border-bottom: 0.5em solid #ddd;
+border-left: 0.5em solid transparent;
+border-right: 0.5em solid transparent;
+margin: 0 auto;
+}
+.u_arr {
+width: 0;
+height: 0;
+border-top: 0.5em solid #ddd;
+border-left: 0.5em solid transparent;
+border-right: 0.5em solid transparent;
+margin: 0 auto;
+}
+._ll {
+border: 2px solid #ddd;
+background: #ddd;
+width: 200px;
+padding: 0.3em;
+margin: 0 auto;
+}
+.c_in {
+padding: 0.3em;
+margin-bottom: 2em;
+}
+.input_ {
+width: 80%;
+height:32px;
+padding:0 0 0 3em;
+border:0;
+border-bottom: 1px solid #aaa;
+margin: 0.5em auto 0 auto;
+display: block;
+background-image: url('http://static.orntel.com/i/p_p.png');
+background-repeat: no-repeat;
+}
+.file {
+background: url('http://static.orntel.com/i/p_p.png') no-repeat 0 0, url('http://static.orntel.com/i/p_p.png') no-repeat 100% -32px;
+}
+.c_at {
+width: 240px;
+margin: 0 auto 2em auto;
+}
+.cl {
+padding: 0.3em;
+display: block;
+border: 1px solid #aaa;
+margin: 3px;
+}
+#tag_c {
+padding: 1em;
+background: #fafafa;
+}
+.tag_co {
+border-top: 1px solid #aaa;
+border-bottom: 1px solid #aaa;
+padding: 0.3em;
+margin-bottom: 1em;
+}
+._label {
+border: 1px solid #aaa;
+background: #eaeaea;
+padding: 0.3em;
+display: inline-block;
+vertical-align: middle;
+margin: 2px;
+border-radius: 5px;
+}
+input[type=checkbox] {
+vertical-align: middle;
+}
+#c_bt {
+margin: 0 auto 1em auto;
+width: 75px;
+height: 32px;
+border: 3px solid #dadada;
+background: #bcbcbc url('http://static.orntel.com/i/p_p.png') no-repeat 100% -193px;
+cursor: pointer;
+text-align: center;
+line-height: 32px;
+padding-right: 32px;
+}
+#id1 {
+text-align: center;
+}
+#id1 a {color: #00f}
+#pag {background-position: 0 -96px}
+#nam {background-position: 0 -128px}
+#des {background-position: 0 -63px}
+#cp_c {
+border: 1px solid #bdbdbd;
+width: 600px;
+margin: 0 auto;
+}
+@media screen and (max-width: 700px) {
+#cp_c {width: auto; margin: -0.6em}
+}

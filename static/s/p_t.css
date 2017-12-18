@@ -1,0 +1,45 @@
+.g_c {
+display: inline-block;
+vertical-align: top;
+background: #f7f7f7;
+margin: 5px;
+width: 200px;
+}
+.g {
+padding: 0.5em;
+}
+.ti {
+width: 100px;
+height: 100px;
+border-radius: 50px;
+display: block;
+margin: 5px auto
+}
+.inc {
+display: block;
+vertical-align: top;
+padding: 0.3em;
+background: #ededed;
+min-height: 90px;
+border-radius: 5px;
+max-width: 210px;
+box-shadow: 1px 2px 8px #aaa;
+}
+.n {
+padding: 5px;
+color: #999;
+}
+.p {
+padding: 5px;
+font-size: 120%;
+}
+.f {
+display: block;
+font-size: 80%;
+padding: 5px;
+color: #00f;
+text-align: right
+}
+.ab {
+font-style: italic;
+}

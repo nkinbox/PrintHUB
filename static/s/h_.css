@@ -1,0 +1,45 @@
+h2 {
+font-weight: normal;
+font-size: 80%;
+padding: 4px;
+border-top: 1px dashed #aaa;
+border-bottom: 1px dashed #aaa;
+background: #f7f7f7;
+color: #777
+}
+h1 {
+font-weight: normal;
+text-align: center;
+background: #ececec;
+margin: 0;
+padding: 10px;
+border-top: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+}
+.c {
+font-size: 120%;
+padding: 10px;
+margin: 5px;
+border-bottom: 2px solid #000;
+color: #888;
+}
+#oh {
+float: right;
+}
+#sp {
+display: inline-block;
+}
+#sp, #oh {
+padding: 0.5em;
+border: 1px solid #aaa;
+background: #eee;
+border-radius: 5px;
+margin: 10px;
+}
+a {
+text-decoration: none;
+color: inherit;
+}
+h2 {
+
+}

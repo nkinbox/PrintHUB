@@ -1,0 +1,93 @@
+h2 {
+color: #666;
+background:#fafafa;
+margin:0;
+padding:0.8em 0;
+text-align: center;
+border-bottom: 1px solid #eee;
+}
+a {
+text-decoration: none;
+color: inherit;
+}
+.aerr {
+padding: 0.5em;
+text-align: center;
+background: #fee;
+color: #f00;
+}
+.con2 {
+height: 32px;
+padding-left: 38px;
+background-color: #cecece;
+background-image: url('http://static.orntel.com/i/o_m.png');
+background-repeat: no-repeat;
+border: 0.5em solid #cecece;
+font-size: 20px;
+line-height: 32px;
+}
+.con3 {
+vertical-align: top;
+display: inline-block;
+width: 50%;
+}
+.chc {
+padding: 4px 0 4px 25px;
+background: #f8f8f8;
+color: #777;
+}
+.ch1 {
+background: #f0f0f0 url('http://static.orntel.com/i/o_m.png') no-repeat 0 -128px;
+height: 16px;
+font-size: 16px;
+line-height: 16px;
+padding-left: 20px;
+border: 5px solid #f0f0f0;
+}
+.edit {
+float: right;
+background: #f8f8f8 url('http://static.orntel.com/i/o_m.png') no-repeat 0 -96px;
+height: 16px;
+font-size: 16px;
+line-height: 16px;
+padding-left: 20px;
+border: 5px solid #f8f8f8;
+border-radius: 5px;
+color: #777;
+cursor: pointer;
+}
+.yes {
+display: inline;
+background: #b8b8b8 url('http://static.orntel.com/i/o_m.png') no-repeat 0 -128px;
+height: 16px;
+font-size: 16px;
+line-height: 16px;
+padding-left: 20px;
+border: 5px solid #b8b8b8;
+cursor: pointer;
+}
+.no {
+display: inline;
+background: #b8b8b8 url('http://static.orntel.com/i/o_m.png') no-repeat 0 -112px;
+height: 16px;
+font-size: 16px;
+line-height: 16px;
+padding-left: 20px;
+border: 5px solid #b8b8b8;
+cursor: pointer;
+}
+.emo {
+padding: 1.5em;
+background: #f0f0f0;
+text-align: center;
+}
+input {width: 85%;}
+
+
+
+@media screen and (max-width: 750px) {
+h2 {font-size: 1.2em; padding: 0.6em 0}
+}
+@media screen and (max-width: 450px) {
+.con3 {width: auto; display: block}
+}

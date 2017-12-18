@@ -1,0 +1,160 @@
+.cop {
+padding: 0.3em;
+color: #00f;
+fontsize: 60%;
+text-align: right;
+}
+#lh {
+font-size: 170%;
+text-align: center;
+padding: 0.5em 0;
+}
+.ff {
+text-align: center;
+font-size: 110%;
+padding: 0.5em 0;
+}
+.np {
+width: 208px;
+margin: 5px auto;
+padding: 0 -0.5em;
+}
+.np a {
+display: inline-block;
+padding: 5px;
+margin: 1px;
+border: 1px solid #aaa;
+background: #eee;
+width: 90px;
+font-size: 80%;
+text-align: center;
+color: #777;
+}
+.gc {
+display: inline-block;
+width: 33.33%;
+vertical-align : top;
+text-align: center;
+}
+.g {
+cursor: pointer;
+padding: 0.5em 0.2em;
+}
+.gb {
+background: #dfdfdf;
+}
+.gs {
+background: #f7f7f7;
+}
+#mco {
+border: 1px solid #aaa;
+}
+.pc {
+width: 230px;
+padding: 25px 5px 5px 5px;
+margin: 5px;
+display: inline-block;
+vertical-align: top;
+border: 1px solid #aaa;
+background: #eee;
+position: relative;
+font-size: 80%;
+}
+.sno {
+position: absolute;
+width: 25px;
+height: 25px;
+font-size: 12px;
+line-height: 25px;
+text-align: center;
+border: 1px solid #5c5c5c;
+border-radius: 3px;
+background: #6f6f6f;
+color: #f2f2f2;
+top: -6px;
+left: -6px;
+}
+.pd {
+padding: 5px;
+background: #f7f7f7;
+margin: 5px -5px;
+}
+.pup {
+text-align: right;
+font-style: italic;
+color: #777
+}
+.pg, .pp {
+display: inline-block;
+margin: 4px;
+border: 1px solid #aaa;
+background: #cbcbcb;
+padding: 5px;
+border-radius: 3px;
+}
+.pu {
+text-align: right;
+}
+.pr {
+display: block;
+padding: 5px;
+background: #8F8CFF;
+border: 1px solid #aaa;
+width: 100px;
+margin: 3px auto;
+text-align: center;
+font-size: 140%;
+border-radius: 5px;
+cursor: pointer;
+}
+.ps {
+text-align: right;
+padding: 5px;
+}
+.ta {
+background: #aaa;
+color: #5c5c5c;
+padding: 5px;
+border-radius: 5px;
+display: inline-block;
+}
+.ard {
+width: 0;
+height: 0;
+border-left: 0.5em solid transparent;
+border-right: 0.5em solid transparent;
+border-top: 0.5em solid #aaa;
+margin-left: 10px;
+}
+.tac {
+background: #dadada;
+padding: 5px;
+margin: 3px;
+}
+label {
+padding: 3px;
+background: #f7f7f7;
+display: inline-block;
+border: 1px solid #ddd;
+border-radius: 5px;
+}
+.fv, .fn {
+padding: 5px;
+font-weight: bold;
+text-align: center;
+}
+.fn {
+color: #f00;
+}
+.fv {
+color: #00b000;
+}
+.tac_ {
+display: inline-block;
+width: 50%;
+vertical-align: top;
+}
+@media screen and (max-width: 400px) {
+#mco {margin: 0 -1em;}
+.pc {margin: 5px 0}
+}

@@ -1,0 +1,28 @@
+#con {
+padding: 1em;
+margin-bottom: 0.5em;
+text-align: center;
+}
+#con a {
+padding: 1em;
+border:1px solid #aaa;
+margin-right: 0.5em;
+}
+#con .sel {
+background: #a7a7a7;
+}
+#chart, #pie1, #pie2 {
+display: inline-block;
+vertical-align: top;
+}
+#chart {
+width:70%;
+}
+#pie1, #pie2 {
+width:15%;
+height:300px;
+}
+@media screen and (max-width: 800px) {
+#chart {width:99%; border-bottom:2px solid #aaa; margin-bottom:1em}
+#pie1, #pie2 {width:50%}
+}

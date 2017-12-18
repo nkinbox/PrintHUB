@@ -1,0 +1,40 @@
+#p {
+width: 100%;
+position: relative;
+top: 0;
+}
+.g_c {
+vertical-align: top;
+display: inline-block;
+width: 25%;
+}
+.g {
+padding: 1em 0.5em;
+text-align: center;
+background: #f7f7f7;
+border: 1px solid #eee;
+}
+a {
+color: inherit;
+text-decoration: none;
+}
+.h {
+font-size: 150%;
+padding: 52px 8px 8px 8px;
+}
+.h_ {
+font-size: 80%;
+padding: 0 1em;
+color: #999;
+}
+.c {
+padding: 1em;
+}
+.ch {
+padding: 0 1em;
+font-weight: bold;
+}
+@media screen and (max-width: 600px) {
+.g_c {width: 50%}
+.h {padding: 104px 8px 8px 8px;}
+}

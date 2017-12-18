@@ -1,0 +1,47 @@
+body {
+margin:0;
+padding:0;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 100%;
+}
+header {
+background: #ffa;
+padding: 1em;
+border: 1px solid #eee;
+}
+header img {
+width: 73px;
+height: 13px;
+}
+#division {
+padding: 0.5em;
+background: #f2f2f2;
+}
+#division a {
+display: inline-block;
+border: 5px solid #d2d2d2;
+background: #d2d2d2 url('http://static.orntel.com/i/s.png') no-repeat 0 -32px;
+border-radius: 5px;
+line-height: 32px;
+font-size: 20px;
+padding-left: 35px;
+height: 32px;
+}
+#faq_ {
+margin-top: 10px;
+}
+#faq {
+padding: 10px;
+background: #ccc;
+}
+#faq_ a {
+text-decoration: none;
+color: inherit
+}
+.qst {
+display: block;
+margin-top: 5px;
+border: 1px dashed #aaa;
+padding: 5px;
+background: #fafafa;
+}

@@ -1,0 +1,135 @@
+html, body {
+margin: 0;
+padding: 0;
+height: 100%;
+}
+body {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 100%;
+}
+#faq_ {
+margin-top: 10px;
+}
+#faq {
+padding: 10px;
+background: #ccc;
+}
+.qst {
+display: block;
+margin-top: 5px;
+border: 1px dashed #aaa;
+padding: 5px;
+background: #fafafa;
+}
+#help {
+float:right;
+padding-left: 1.3em;
+color: #333;
+height: 1em;
+display: inline-block;
+font-size: 0.8em;
+margin: 0 0.3em;
+background-position: 0 -161px;
+}
+.fsl {border-bottom: 2px solid #aaa;}
+a {
+text-decoration: inherit;
+color: inherit;
+}
+section {
+padding:1em 1em 6em 1em;
+}
+#c_ {
+min-height:100%;
+position:relative;
+}
+footer {
+position: absolute;
+height: 4em;
+padding-top: 1em;
+width:100%;
+bottom: 0;
+background: #f7f7f7;
+border-top: 1px solid #e0e0e0;
+text-align: center;
+}
+footer a {
+padding-left: 1em;
+color: #333;
+height: 1em;
+display: inline-block;
+font-size: 1em;
+margin: 0 0.3em;
+}
+footer img {
+width: 73px;
+height: 13px;
+vertical-align: middle;
+}
+footer span {
+position:absolute;
+bottom: 0.3em;
+right: 0.3em;
+}
+header {
+background: #f7f7f7;
+border: 1px solid #e0e0e0;
+padding: 0.3em;
+}
+#l {
+padding: 0.5em;
+border-bottom: 1px solid #e0e0e0;
+margin-bottom: 0.3em;
+}
+nav {display: block;}
+nav a {
+padding-left: 1.2em;
+color: #333;
+height: 1em;
+display: block;
+font-size: 1em;
+}
+nav div {
+padding: 0.3em;
+display: inline-block;
+border: 1px solid #e0e0e0;
+}
+.fr {float: right;}
+.m_ {
+display: none;
+height: 16px;
+width: 19px;
+}
+#sl {background: #ddd;}
+.sle {background: #ddd;}
+#_h {background: url('http://static.orntel.com/i/n.png') no-repeat 0 1px;}
+#_s {background: url('http://static.orntel.com/i/n.png') no-repeat 0 -16px;}
+#_t {background: url('http://static.orntel.com/i/n.png') no-repeat 0 -32px;}
+#_c {background: url('http://static.orntel.com/i/n.png') no-repeat 0 -47px;}
+#_b {background: url('http://static.orntel.com/i/n.png') no-repeat 0 -64px;}
+#_r {background: url('http://static.orntel.com/i/n.png') no-repeat 0 -80px;}
+#_i {background: url('http://static.orntel.com/i/n.png') no-repeat 0 -96px;}
+#_o {background: url('http://static.orntel.com/i/n.png') no-repeat 0 -112px;}
+#_m {background: url('http://static.orntel.com/i/n.png') no-repeat 0 -128px;}
+#_a {background: url('http://static.orntel.com/i/n.png') no-repeat 0 -144px;}
+._n {background: url('http://static.orntel.com/i/n.png') no-repeat 0 -160px;}
+#_u {background: url('http://static.orntel.com/i/n.png') no-repeat 0 -176px;}
+.moc {
+text-align: center;
+padding: 10px;
+background: #ffa;
+}
+.mo {
+color: #777;
+padding: 5px;
+background: #f2f2f2;
+margin: 3px;
+border: 1px solid #aaa;
+border-radius: 5px;
+}
+@media screen and (max-width: 700px) {
+.h {display: none;}
+.r {display: block;}
+nav div {display: block;}
+.m_ {display: inline-block;}
+}
